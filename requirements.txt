@@ -51,3 +51,4 @@ python-multipart
 tavily-python
 streamlit
 reportlab
+langchain-cerebras

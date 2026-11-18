@@ -1,4 +1,4 @@
-from langchain_groq import ChatGroq
+from langchain_cerebras import ChatCerebras
 from langchain.agents import create_agent
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #model setup
-llm = ChatGroq(model="openai/gpt-oss-20b",temperature=0,max_tokens=2048)
+llm = ChatCerebras(model="gpt-oss-120b",temperature=0,max_tokens=1024)
 
 ## first agent
 
