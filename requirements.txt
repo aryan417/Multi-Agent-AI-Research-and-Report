@@ -1,0 +1,53 @@
+# LangChain
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# LLM Providers
+langchain-openai
+langchain-groq
+langchain-mistralai
+langchain-huggingface
+
+# API SDKs
+openai
+groq
+mistralai
+huggingface-hub
+
+# Embeddings
+sentence-transformers
+
+# Vector Databases
+chromadb
+langchain-chroma
+
+# Document Loading
+pypdf
+python-docx
+beautifulsoup4
+requests
+
+# Retrieval and Tokenization
+tiktoken
+rank-bm25
+
+# Environment and Validation
+python-dotenv
+pydantic
+
+# UI
+streamlit
+
+# Backend
+fastapi
+uvicorn
+python-multipart
+
+
+
+
+tavily-python
+streamlit
+reportlab
